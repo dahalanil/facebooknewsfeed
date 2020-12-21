@@ -11,6 +11,8 @@ class FacebookCard extends StatelessWidget {
   final Image iconimage2;
   final String likecount;
   final String cmtsharetext;
+  final String date;
+ 
 
 
   FacebookCard({
@@ -23,6 +25,8 @@ class FacebookCard extends StatelessWidget {
     @required this.likecount,
     @required this.profilepic,
     @required this.cmtsharetext,
+    this.date,
+
 
 
   });
@@ -34,7 +38,7 @@ class FacebookCard extends StatelessWidget {
     decoration: BoxDecoration(
       boxShadow: [
         BoxShadow(
-            color: Colors.white,
+            color: Colors.grey[200],
             spreadRadius: 0.9,
             blurRadius: 0,
             offset: Offset(2, 2)
@@ -65,6 +69,10 @@ class FacebookCard extends StatelessWidget {
             color: Colors.grey,
           ),
              _reacticonbutton(),
+              Divider(
+            height: 10,
+            color: Colors.grey,
+          ),
             ],
           ),
         )
@@ -73,12 +81,17 @@ class FacebookCard extends StatelessWidget {
   }
   Widget _title(){
     return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         profilepic,       
-        SizedBox(
-          width: 10,
-        ),
-        Text(namestring,
+        
+         Column(
+           crossAxisAlignment: CrossAxisAlignment.start,
+           children: [
+          Row(
+            children: [
+              Text(namestring,
         style: TextStyle(
           fontWeight: FontWeight.bold,
         ),),
@@ -86,6 +99,18 @@ class FacebookCard extends StatelessWidget {
           width: 5,
         ),
         Text(namediscription),
+
+          ],
+          ),
+          Row(
+            children: [
+              Text(date),
+              Icon(Icons.timelapse,size: 16,)
+            ],
+          )
+        ],
+        ),
+        Icon(Icons.more_horiz),
       ],
 
     );

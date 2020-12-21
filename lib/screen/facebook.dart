@@ -51,6 +51,7 @@ class Facebook extends StatelessWidget {
             width: 20,),
             likecount: "4.5k",
             cmtsharetext: "23comments 34shares",
+            date: "Aug 26",
             
           ),
 
@@ -84,6 +85,7 @@ class Facebook extends StatelessWidget {
             width: 20,),
             likecount: "6.8k",
             cmtsharetext: "93comments 394shares",
+            date: "yesterday 4:50 pm",
 
           ),
 
@@ -110,6 +112,7 @@ class Facebook extends StatelessWidget {
             width: 20,),
             likecount: "6.8k",
             cmtsharetext: "93comments 394shares",
+            date: "jun 6",
 
           ),
 
@@ -142,6 +145,7 @@ class Facebook extends StatelessWidget {
             width: 20,),
             likecount: "10.8k",
             cmtsharetext: "953comments 74shares",
+            date: "Today 5:45 am",
 
           ),
 
@@ -168,6 +172,7 @@ class Facebook extends StatelessWidget {
             width: 20,),
             likecount: "567",
             cmtsharetext: "9comments 3shares",
+            date: "Dec 7",
 
           ),
 
@@ -194,6 +199,7 @@ class Facebook extends StatelessWidget {
             width: 20,),
             likecount: "6.8k",
             cmtsharetext: "93comments 394shares",
+            date: "Nov 13",
 
           ),
         ],
