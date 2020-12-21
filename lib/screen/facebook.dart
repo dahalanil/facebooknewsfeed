@@ -6,6 +6,7 @@ class Facebook extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       appBar: AppBar(
         title:Text("Facebook"),
         centerTitle: true,

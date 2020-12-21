@@ -1,3 +1,4 @@
+import 'package:facebook/screen/detail.dart';
 import 'package:flutter/material.dart';
 
 class FacebookCard extends StatelessWidget {
@@ -28,6 +29,7 @@ class FacebookCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      
     margin: EdgeInsets.symmetric(horizontal: 0, vertical: 5),
     decoration: BoxDecoration(
       boxShadow: [
@@ -40,19 +42,31 @@ class FacebookCard extends StatelessWidget {
       ]
     ),
       child:
-        Column(
-          children: [
-            _title(),
-           _discription(context),
-           SizedBox(height:10),
-            _picture(),
-           _reaction(),
-            Divider(
-          height: 10,
-          color: Colors.grey,
-        ),
-           _reacticonbutton(),
-          ],
+        GestureDetector(
+          onTap: (){
+            //Navigator.pushNamed(context, "/detailpage");
+            Navigator.push(context, MaterialPageRoute(builder: (context) => DetailPage(
+              discription: discription,
+              imagefile: imagefile,
+              namestring: namestring,
+              profilepic: profilepic,
+              )));
+          },
+                  child: Column(
+           // GestureDetector();
+            children: [
+              _title(),
+             _discription(context),
+             SizedBox(height:10),
+              _picture(),
+             _reaction(),
+              Divider(
+            height: 10,
+            color: Colors.grey,
+          ),
+             _reacticonbutton(),
+            ],
+          ),
         )
       
     );
