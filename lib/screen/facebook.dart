@@ -54,8 +54,8 @@ class Facebook extends StatelessWidget {
           ),
 
           FacebookCard(
-            profilepic: CircleAvatar(backgroundImage: AssetImage('assets/profile2.jpg'),),
-            namestring: "KP Sharma Oli",
+            profilepic: CircleAvatar(backgroundImage: AssetImage('assets/profile3.jpg'),),
+            namestring: "All Elite Wrestling",
             namediscription: "has upload a mobile upload.",
             discription: RichText(
             text: TextSpan(
@@ -83,6 +83,117 @@ class Facebook extends StatelessWidget {
             width: 20,),
             likecount: "6.8k",
             cmtsharetext: "93comments 394shares",
+
+          ),
+
+          FacebookCard(
+            profilepic: CircleAvatar(backgroundImage: AssetImage('assets/profile2.jpg'),),
+            namestring: "KP Sharma Oli",
+            namediscription: "has upload a mobile upload.",
+            discription: RichText(
+            text: TextSpan(
+            text: 'प्रतिनिधि सभा(२०५६) को सदस्य र जिल्ला विकास समिति मकवानपुर (२०४९) को सभापति रहिसक्नुभएका वीरबहादुर लामाको निधन भएको खबरबाट दु:ख लागेको छ । ऐतिहासिक नख्खु जेलब्रेक (२०३३) का एक योद्दाका रूपमा उहाँले नेपालको राजनीतिक तथा सामाजिक परिवर्तनमा महत्त्वपूर्ण योगदान गर्नुभएको छ । म उहाँप्रति भावपूर्ण श्रद्धाञ्जली अर्पण गर्दछु र शोकाकूल परिवारजनमा गहिरो समवेदना व्यक्त गर्दछु ।',
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 15,
+            ),
+           
+            ),
+            ),
+            imagefile: Image(image: AssetImage("assets/post3.jpg")),
+            iconimage1: Image(image: AssetImage("assets/react1.png"),
+            height: 20,
+            width: 20,),
+            iconimage2: Image(image: AssetImage("assets/react2.png"),
+            height: 20,
+            width: 20,),
+            likecount: "6.8k",
+            cmtsharetext: "93comments 394shares",
+
+          ),
+
+          FacebookCard(
+            profilepic: CircleAvatar(backgroundImage: AssetImage('assets/profile4.jpg'),),
+            namestring: "Barack Obama",
+            namediscription: "has upload a mobile upload.",
+            discription: RichText(
+            text: TextSpan(
+            text: 'This year, we’ve seen people stepping up in so many ways to take care of their communities—checking in on their neighbors, supporting local small businesses, or simply volunteering their time. Join them. Take the',
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 15,
+            ),
+            children: <TextSpan>[
+            TextSpan(text: ' #OFCareChallenge', style: TextStyle(
+              color: Colors.blue,
+              fontSize: 15,
+            )
+            ),
+            ],
+            ),
+            ),
+            imagefile: Image(image: AssetImage("assets/post4.JPG")),
+            iconimage1: Image(image: AssetImage("assets/react1.png"),
+            height: 20,
+            width: 20,),
+            iconimage2: Image(image: AssetImage("assets/react2.png"),
+            height: 20,
+            width: 20,),
+            likecount: "10.8k",
+            cmtsharetext: "953comments 74shares",
+
+          ),
+
+          FacebookCard(
+            profilepic: CircleAvatar(backgroundImage: AssetImage('assets/profile5.png'),),
+            namestring: "GCA",
+            namediscription: "has upload a mobile upload.",
+            discription: RichText(
+            text: TextSpan(
+            text: 'While good design is important to catch the eyes of the audience in the first place, good UX is equally necessary to achieve the desired action from the customer. Proper UX design covertly guides the user to the desired action. No wonder Linkedin has also cited UX as one of the top skills to learn in 2020, because it is inevitably important.',
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 15,
+            ),
+            
+            ),
+            ),
+            imagefile: Image(image: AssetImage("assets/post5.png")),
+            iconimage1: Image(image: AssetImage("assets/react1.png"),
+            height: 20,
+            width: 20,),
+            iconimage2: Image(image: AssetImage("assets/react2.png"),
+            height: 20,
+            width: 20,),
+            likecount: "567",
+            cmtsharetext: "9comments 3shares",
+
+          ),
+
+          FacebookCard(
+            profilepic: CircleAvatar(backgroundImage: AssetImage('assets/profile6.jpg'),),
+            namestring: "WWE",
+            namediscription: "has upload a mobile upload.",
+            discription: RichText(
+            text: TextSpan(
+            text: 'Get ready for a MASSIVE 8-Man Tag Team Match on the WWE TLC Kickoff!',
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 15,
+            ),
+            
+            ),
+            ),
+            imagefile: Image(image: AssetImage("assets/post6.jpg")),
+            iconimage1: Image(image: AssetImage("assets/react1.png"),
+            height: 20,
+            width: 20,),
+            iconimage2: Image(image: AssetImage("assets/react2.png"),
+            height: 20,
+            width: 20,),
+            likecount: "6.8k",
+            cmtsharetext: "93comments 394shares",
+
           ),
         ],
       ),
